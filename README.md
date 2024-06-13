@@ -8,7 +8,7 @@ OpenAI의 whisper를 사용하여 동영상 파일에서 자막을 추출하고,
 <br>
 
 # 전체적인 과정
-- ffmpeg를 사용하여 동영상 mp4 파일에서 자막 추출
+- OpenAI whisper를 사용하여 동영상 mp4 파일에서 자막 추출
 - OpenAI API를 호출하여 자막 교정
 - OpenAI API를 사용하여 퀴즈 생성
 
