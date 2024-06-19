@@ -62,14 +62,13 @@ $ whisper sample1.mp4 --output_format=txt --language=Korean
 ```
 
 
-## 자막 보정
+## 자막 교정
 ```bash
 $ python openai_request.py sample1.txt "{any text}\n\n위의 Voice To Text 결과를 상황과 내용에 맞게 일부 잘못 인식된 글자와 문자를 보다 화자가 실제로 말했을 것 같은 내용으로 교정해라 (원본과 같은 줄바꿈을 사용해서)"
 ```
 
-보정된 결과
+교정된 결과
 ```
-제로 말했을 것 같은 내용으로 교정해라 (원본과 같은 줄바꿈을 사용해서)"
 우리 어르신들은 근력이 약한 경우가 많기 때문에
 근력 운동을 반드시 많이 하셔야 합니다.
 특히 하체 근력 운동을 많이 하셔야 하고요.
@@ -87,6 +86,9 @@ $ python openai_request.py sample1.txt "{any text}\n\n위의 Voice To Text 결�
 저희는 어르신들의 개별적인 신체 능력을 평가해서
 그에 맞는 맞춤형 운동 처방을 해드릴 것입니다.
 ```
+
+위 내용을 파일 sample1-revised.txt로 수동으로 저장한다.
+
 
 수정된 부분
 
